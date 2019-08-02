@@ -1,3 +1,4 @@
+import java.util.Scanner;
 class Palindrome
 
 {
@@ -5,8 +6,11 @@ class Palindrome
 public static void main (String[] args) 	
  {
 	 
-  int num=487,sum=0,rev;
+  int sum=0,rev;
 
+  System.out.println("enter the number");
+  Scanner scan= new Scanner(System.in);
+  int num=scan.nextInt();
   int n=num;	 
 	 	
   while(n!=0)
