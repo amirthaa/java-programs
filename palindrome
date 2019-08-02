@@ -1,0 +1,41 @@
+class Palindrome
+
+{
+	
+public static void main (String[] args) 	
+ {
+	 
+  int num=487,sum=0,rev;
+
+  int n=num;	 
+	 	
+  while(n!=0)
+  {
+	 		
+  rev=n%10;
+
+  n=n/10;
+	 		
+  sum=sum*10+rev;}
+
+if(sum==num)
+	 	
+{
+	 	  
+System.out.println("palindrome");
+	 	
+}
+	 	
+else
+	 	
+{
+	 	 
+ System.out.println("not palindrome");
+	 	
+}
+	
+	
+}
+
+}
+
